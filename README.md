@@ -5,6 +5,10 @@ This repository contains:
 - Data analysis of FFF data
 - Data analysis of CMM
 
+Data folder contains all the raw data from printing and CMM.
+CMM folder contains data analysis of CMM data
+FFF folder contains two sub folders, data acquisition and data analysis. Data acquisition folder contains all the code used to acquire the data, where markforged_selenium.py requires additional dependancy "login.py" to work. Data analysis are separate for each machine, which contain one file for cleaning of data and second for visualization.
+
 # Dependencies
 - pandas
 - datetime
